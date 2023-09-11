@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trollstigen Evenemang</title>
+</head>
+
+<body>
+
+    <nav>
+        <pre></pre>
+
+        <a href="index.html">Hemsida</a> &nbsp;|&nbsp; <a href="trollabackarna.html">Om Trollabackarna</a> &nbsp;|&nbsp; <a href="event.html">Trollstigen Evenemang</a> &nbsp;|&nbsp; <a href="gallery.html">Galleri</a>
+    </nav>
+
+    <h1>Trollstigen Evenemang</h1>
+
+    <form action="" method="get">
+
+        <p>
+            <label for="first_name">Ditt förnam</label><br>
+            <input type="text" name="first_name" id="first_name">
+        </p>
+
+        <p>
+            <label for="last_name">Ditt efternamn</label><br>
+            <input type="text" name="last_name" id="last_name">
+        </p>
+
+        <p>
+            <label for="email">Din e-post</label><br>
+            <input type="email" name="email" id="email" required>
+        </p>
+
+        <img src="images/trollabackarna-karta.jpg" alt="map" width="500">
+
+        <p>
+            <label for="trails">Vilken slinga föredrar du?</label><br> <!-- vilken vill du -->
+            <select name="trails" id="trails">
+                <option value="red">Röd (2.3km)</option>
+                <option value="yellow">Gul (3km)</option>
+                <option value="green">Grön (3.8km)</option>
+                <option value="blue">Blå (7.4km)</option>
+                <option value="troll">Trollstigen (1km)</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="">Vilken datum vill du ---?</label><br>
+            <input type="date" name="" min="2023-10-11" max="2023-10-15">
+        </p>
+
+
+        <hr>
+        <!-- 2 medical -->
+
+        <p>
+            <label for="">vill du...?</label><br>
+            <input type="checkbox" name="" id="">
+        </p>
+
+        <p>
+            <label for="">Din mobilnummer</label>
+            <input type="tel" name="" id="">
+        </p>
+
+        <hr>
+
+        <p>
+            <textarea name="letter" id="letter" cols="30" rows="10"></textarea>
+        </p>
+
+        <button type="submit">Skicka in</button>
+        <button type="reset">Nollställ</button>
+
+
+
+    </form>
+
+</body>
+
+</html>
